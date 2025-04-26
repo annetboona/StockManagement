@@ -1,0 +1,151 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.stock-in {
+  background-color: #4b82f6;
+}
+
+.stock-out {
+  background-color: #dc3545;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.containerr {
+  max-width: 500px;
+  margin: 30px auto;
+  margin-top: 150px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+.add-button {
+  background-color: #007bff;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 80%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.actions button {
+  margin: 5px;
+  padding: 6px 12px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.edit-btn {
+  background-color: #0056b3;
+}
